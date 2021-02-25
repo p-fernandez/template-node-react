@@ -1,0 +1,6 @@
+{
+  "env": "<Environment>",
+  "backend": {
+    "baseURL": "<Backend URL here>"
+  }
+}

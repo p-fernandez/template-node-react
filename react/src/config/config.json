@@ -1,0 +1,6 @@
+{
+  "env": "development",
+  "backend": {
+    "baseURL": "http://localhost:8080"
+  }
+}

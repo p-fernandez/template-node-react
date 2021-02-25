@@ -1,0 +1,6 @@
+{
+  "env": "production",
+  "backend": {
+    "baseURL": "http://localhost:49160"
+  }
+}
