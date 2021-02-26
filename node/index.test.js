@@ -3,7 +3,7 @@
 const index = require('./index');
 
 describe('Tests', () => {
-  it('Default', () => {
+  test('Default', () => {
     index();
     expect(1).toBe(1);
   });

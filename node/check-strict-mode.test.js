@@ -10,7 +10,7 @@ const testFail = () => {
 };
 
 describe('Check Node.js strict mode', () => {
-  it('Provided a value through an argument, if the argument is tried to have modified its reference, value should remain the same', () => {
+  test('Provided a value through an argument, if the argument is tried to have modified its reference, value should remain the same', () => {
     const number = 10;
     const modifiedNumber = 20;
     const expectation = `${number} -- ${modifiedNumber}`;
@@ -18,7 +18,7 @@ describe('Check Node.js strict mode', () => {
     expect(example(number, modifiedNumber)).toBe(expectation);
   });
 
-  it('Undeclared variables throw a ReferenceError', () => {
+  test('Undeclared variables throw a ReferenceError', () => {
     try {
       example2();
       testFail();
